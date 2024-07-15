@@ -1,10 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>Moments WalkThrough Project</h1>
 
-# This template has been deprecated
+Create react app:
 
-Please use (and bookmark) this template instead: [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
+npx create-react-app . --use-npm
 
-Any projects built using the old template will continue to work. For all new projects, please use the **CI Full Template**, which will be updated more frequently.
+Run the App:
 
----
-Happy coding!
+npm start
