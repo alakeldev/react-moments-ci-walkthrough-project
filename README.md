@@ -37,3 +37,11 @@ you need to add these inside index.html file to use bootstrap:
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" crossorigin="use-credentials" /> -->
+
+
+## Working with React CSS
+
+1- The main App.module.css file is for CSS styles you want to apply to your site as a whole
+2- Each component should have its own module.css file for the styles relating to that component
+3- You need to import any module.css file you want to use at the top of the file
+4- Class names from your module.css file are applied to individual components using the {styles.ClassName} Syntax
