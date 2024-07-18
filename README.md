@@ -9,7 +9,7 @@ Run the App:
 npm start
 
 react bootstrap link below :
-https://react-bootstrap.github.io/
+<https://react-bootstrap.github.io/>
 
 be wondering, why do we need a different Bootstrap library to work with React?
 The short answer is, React-Bootstrap was built specifically to integrate Bootstrap styles
@@ -30,7 +30,6 @@ npm install react-bootstrap bootstrap@4.6.0
 or
 npm install react-bootstrap bootstrap
 
-
 you need to add these inside index.html file to use bootstrap:
 
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -38,10 +37,18 @@ you need to add these inside index.html file to use bootstrap:
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" crossorigin="use-credentials" /> -->
 
-
 ## Working with React CSS
 
 1- The main App.module.css file is for CSS styles you want to apply to your site as a whole
 2- Each component should have its own module.css file for the styles relating to that component
 3- You need to import any module.css file you want to use at the top of the file
 4- Class names from your module.css file are applied to individual components using the {styles.ClassName} Syntax
+
+Useful links:
+
+<https://medium.com/@ralph1786/using-css-modules-in-react-app-c2079eadbb87>
+
+<https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/>
+
+## React router Documentation
+<https://reactrouter.com/en/6.25.1/web/guides/quick-start>
